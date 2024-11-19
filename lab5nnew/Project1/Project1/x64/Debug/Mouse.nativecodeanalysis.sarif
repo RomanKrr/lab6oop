@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/kiis/c++oop/lab5nnew/project1/project1/mouse.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "bb74a51c9f2a7a1f704e10e4b0c9d518e7b433aa2b303c07655d0dcdc9b85ba3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kiis/c++oop/lab5nnew/project1/project1/mouse.h"
+          },
+          "hashes": {
+            "sha-256": "fa36075e9f9651b32b0f07d3b35144abd00901e859fed9fed399ad7bca790d2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kiis/c++oop/lab5nnew/project1/project1/inputdevice.h"
+          },
+          "hashes": {
+            "sha-256": "ac2dee6d1c2143829432223dbaa7bf9500167831af6904daf6f2abe80882b0ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kiis/c++oop/lab5nnew/project1/project1/device.h"
+          },
+          "hashes": {
+            "sha-256": "a1227d28941095197fee00b254a6dfca1cdffb5967d826501eba0decb8a96234"
+          }
+        }
+      ]
+    }
+  ]
+}

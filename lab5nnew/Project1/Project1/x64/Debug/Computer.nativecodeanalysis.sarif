@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/kiis/c++oop/lab5nnew/project1/project1/computer.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b6800db812585530a1ccd0f9b420410e7f207b58d4ad3a196aa0f9306773dfea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kiis/c++oop/lab5nnew/project1/project1/computer.h"
+          },
+          "hashes": {
+            "sha-256": "aa2aac0d97472625c98f0d4befc9179d9a9ff1afad865ebd8580ef9e9daaf9af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kiis/c++oop/lab5nnew/project1/project1/device.h"
+          },
+          "hashes": {
+            "sha-256": "a1227d28941095197fee00b254a6dfca1cdffb5967d826501eba0decb8a96234"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/kiis/c++oop/lab5nnew/project1/project1/harddrive.h"
+          },
+          "hashes": {
+            "sha-256": "4bb44bc1c519c5cbc8e2e728de3d7c8fb717d686ee2caf82f975ea289775c1cc"
+          }
+        }
+      ]
+    }
+  ]
+}
